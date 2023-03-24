@@ -1,0 +1,9 @@
+
+img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid; 
+    border-radius: 250px;
+    margin-left: 40%;
+    margin-top: 40px;
+}
