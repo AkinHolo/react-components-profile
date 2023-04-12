@@ -6,9 +6,10 @@ const FullName = () => {
     let lastName = 'Holo'
   return (
     <div className='name'>
-        <h1> 
-            {firstName} {lastName}
-        </h1>
+      <div className='name-icon'>
+        <i className="bi bi-person"></i>
+      </div>
+      <h3> {firstName} {lastName}</h3>
     </div>
   )
 }

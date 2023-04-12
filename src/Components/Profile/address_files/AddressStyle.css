@@ -1,33 +1,13 @@
 .address {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    line-height: 2px;
-    border: 2px solid rgba(1, 1, 61, 0.205);
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 150px;
-}
-
-h3 {
-    color:pink;
-    margin-top: 15px;
-    border-radius: 25px;
-  
-}
-
-.h-control {
-    color: gold;
-    text-align: justify;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin-left: 30%;
+    /* width: 38rem;   */
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: aliceblue; 
 }
 
-.control {
-    display: flex;
-    column-gap: 10px;
-    
-}
+
 

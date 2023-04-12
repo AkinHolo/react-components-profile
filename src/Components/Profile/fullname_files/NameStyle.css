@@ -1,9 +1,22 @@
 .name {
-    color: gold;
-    text-align: center;
-    border: 1px solid rgb(1, 1, 95 );
-    border-radius: 20px;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 30px;
-} 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+.bi-person {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.name > h3 {
+    color: black;
+
+}
 

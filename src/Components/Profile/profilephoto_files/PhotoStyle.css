@@ -1,9 +1,16 @@
+.photo {
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+}
+
+
 
 img {
-    width: 250px;
-    height: 250px;
-    border: 1px solid; 
-    border-radius: 250px;
-    margin-left: 40%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid whitesmoke; 
+    border-radius: 200px;
+    margin-left: 30px; 
     margin-top: 40px;
 }
